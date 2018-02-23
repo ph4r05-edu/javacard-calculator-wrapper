@@ -84,14 +84,14 @@ javacard {
 
         //noinspection GroovyAssignabilityCheck
         cap {
-            packageName 'applet'
+            packageName 'at.ac.tuwien.mnsa.javacard'
             version '0.1'
             aid '01:02:03:04:05:06:07:08:09'
             output 'applet.cap'
 
             //noinspection GroovyAssignabilityCheck
             applet {
-                className 'applet.MainApplet'
+                className 'at.ac.tuwien.mnsa.javacard.Calculator'
                 aid '01:02:03:04:05:06:07:08:09:01:02'
             }
 
