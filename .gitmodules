@@ -1,3 +1,6 @@
 [submodule "libs-sdks"]
 	path = libs-sdks
 	url = https://github.com/martinpaljak/oracle_javacard_sdks.git
+[submodule "applet/project"]
+	path = applet/project
+	url = git@github.com:ph4r05-edu/javacard-calculator.git
